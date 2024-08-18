@@ -1,0 +1,49 @@
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    margin-top: 30px;
+    h1{
+        margin-bottom: 10px;
+    }
+    input{
+        width: 100%;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: rgb(43, 45, 48);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus {
+        -webkit-text-fill-color: white;
+        -webkit-box-shadow: 0 0 0 50px rgb(43, 45, 48) inset
+    }
+    button{
+        width: 100%;
+        padding: 20px;
+        background-color: orange;
+        border: none;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        margin-top: 40px;
+    }
+    a{
+        color: orange !important;
+    }
+}
+.bron{
+    margin: 10px;
+}
+.some{
+    margin-top: 10px;
+}
